@@ -1,0 +1,3 @@
+echo "git add .
+git commit -m "add all files"
+git push" >> git-add
