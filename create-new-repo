@@ -1,0 +1,8 @@
+curl -u dbc_257 https://api.github.com/user/repos -d '{"name":"REPO"}' 
+mkdir REPO    
+cd /REPO
+git init
+touch readME.md   
+git commit -m "first commit"
+git remote add origin git@github.com:dbc_257/REPO.git
+

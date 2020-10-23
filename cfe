@@ -1,0 +1,8 @@
+mkdir new-project
+touch new-project/index.html
+mkdir new-project/public
+mkdir new-project/public/css
+touch new-project/public/css/styles.css
+mkdir new-project/public/js
+touch new-project/public/jss/cripts.js
+

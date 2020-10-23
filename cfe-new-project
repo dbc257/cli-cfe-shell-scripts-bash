@@ -1,0 +1,29 @@
+mkdir new-project
+cd new-project
+echo "<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+      <h1>Hello World</h1>
+    <script src="./public/js/scripts.js"></script>
+  </body>
+</html>" > index.html
+mkdir public
+cd public
+mkdir css
+cd css
+echo "h1 {
+  color: green;
+}" > styles.css
+cd ..
+mkdir js
+cd js
+touch scripts.js
+cd ..
+cd ..
